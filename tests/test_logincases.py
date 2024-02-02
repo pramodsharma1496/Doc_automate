@@ -7,7 +7,7 @@ from base import BaseClass
 
 
 class Testcase(BaseClass):
-    @pytest.fixture
+
     def test_successful_login(self):
         login_page = LoginPage(self.driver)
         email = "AdminUser@luvfilms.com"
